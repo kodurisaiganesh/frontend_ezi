@@ -1,0 +1,23 @@
+.about-section {
+  padding: 3rem 0;
+}
+.about-inner {
+  display:flex;
+  gap:2rem;
+  align-items:flex-start;
+}
+.about-left { flex:1; }
+.about-right { flex:1; text-align:right; padding-top:20px; }
+
+.about-left h2 { font-size:1.5rem; margin-bottom:.6rem; color:#123047; font-family: "Playfair Display", serif; }
+.about-left p { color:var(--muted); max-width:520px; }
+
+.stats { display:flex; gap:1rem; margin-top:1rem; }
+.stat { background: rgba(255,255,255,0.85); padding: .6rem 1rem; border-radius:8px; box-shadow: 0 6px 18px rgba(15,17,36,0.06); }
+.stat-num { font-weight:700; font-size:1.2rem; color:#123047; }
+.stat-label { font-size:.85rem; color:var(--muted); }
+
+.quote { font-family: "Playfair Display", serif; font-size:1.6rem; color:#123047; margin:0 0 1rem; }
+
+.team-section { padding: 2.5rem 0; border-top: 1px dashed rgba(15,17,36,0.04); }
+.note-card { background: #fff; padding:1rem; border-radius:8px; box-shadow:0 6px 18px rgba(15,17,36,0.06); margin-bottom:1rem; }

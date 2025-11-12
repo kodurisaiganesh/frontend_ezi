@@ -1,0 +1,35 @@
+/* Header */
+.vf-header {
+  background: rgba(10,10,10,0.85);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+.header-inner {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: .7rem 0;
+}
+.logo { color: #fff; text-decoration:none; display:flex; align-items:center; gap:.4rem; font-weight:700; font-size:1.05rem }
+.logo-mark { color: var(--accent); font-weight:800; font-family: Georgia, serif; font-size:1.3rem; }
+.main-nav { display:flex; gap:1rem; align-items:center; }
+.main-nav a { color: #fff; text-decoration:none; padding:.3rem .6rem; opacity:.95; }
+.main-nav a.cta { background: #fff; color: var(--dark); border-radius: 18px; padding:.4rem .8rem; font-weight:700; }
+
+/* Footer */
+.vf-footer {
+  border-top: 1px solid rgba(15,17,36,0.08);
+  padding: .8rem 0;
+  background: rgba(255,255,255,0.02);
+  color: rgba(15,17,36,0.75);
+}
+.footer-inner {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:1rem;
+}
+.footer-inner a { color: var(--accent); text-decoration:none; }

@@ -1,0 +1,22 @@
+/* small screens */
+@media (max-width: 900px) {
+  .hero-inner { flex-direction:column; text-align:center; }
+  .hero-left { order:2; display:flex; justify-content:center; }
+  .hero-right { order:1; padding:0; }
+
+  .about-inner, .team-inner, .contact-inner, .service-detail-inner {
+    flex-direction:column;
+    text-align:left;
+  }
+
+  .form-grid { grid-template-columns: 1fr; }
+  .main-nav { display:none; }
+  .header-inner { justify-content:space-between; }
+}
+
+/* very small */
+@media (max-width: 480px) {
+  .logo-large { font-size:2.2rem; }
+  .hero-title { font-size:1.4rem; }
+  .vf-container { padding: .7rem; }
+}

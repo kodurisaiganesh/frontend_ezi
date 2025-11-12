@@ -1,0 +1,37 @@
+:root{
+  --max-w: 1200px;
+  --accent: #e85a2a;
+  --muted: #6b6b6b;
+  --bg-peach: #f7e9e4;
+  --paper: #fff;
+  --dark: #0f1724;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color:var(--dark);
+  background: var(--bg-peach) url('/src/assets/mandala-bg.png') repeat;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.vf-container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* generic button */
+.btn {
+  display:inline-block;
+  padding: .6rem 1rem;
+  border-radius: 22px;
+  text-decoration:none;
+  font-weight:600;
+}
+.btn-primary { background: var(--accent); color: #fff; border: none; }
+.btn-outline { border: 1px solid rgba(15,17,36,0.06); background: transparent; color: var(--dark); }
+.btn-muted { background: transparent; color: var(--muted); border: 1px solid rgba(15,17,36,0.04); padding:.45rem .8rem; border-radius:8px; }
