@@ -2,32 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css";
 
-/**
- * Each service entry now has its own image.
- * Place these files in: src/assets/images/
- *   - film-production.jpg
- *   - branding.jpg
- *   - art-curation.jpg
- */
+import filmProductionImg from "../assets/images/film-production.jpg";
+import brandingImg from "../assets/images/branding1.jpg";
+import artCurationImg from "../assets/images/art-curation1.jpg";
 
 const services = [
   {
     id: "film-production",
     title: "Film Production",
     desc: "Documentaries, Corporate Videos, 2D/3D Animation Videos",
-    image: "/src/assets/images/film-production.jpg"
+    image: filmProductionImg
   },
   {
     id: "branding",
     title: "Branding",
     desc: "Brand Strategy, Market Mapping, Content Management, Social Media",
-    image: "/src/assets/images/branding1.jpg"
+    image: brandingImg
   },
   {
     id: "art-curation",
     title: "Art Curation",
     desc: "Art Festivals, Live Performances, Community Events, Cultural Storytelling",
-    image: "/src/assets/images/art-curation1.jpg"
+    image: artCurationImg
   }
 ];
 
